@@ -1,0 +1,8 @@
+.posts{
+  gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+  margin: 50px 0px;
+}
