@@ -1,5 +1,4 @@
 
-import SearchInput from "@/components/SearchInput/SearchInput";
 import CardList from "@/components/cardList/CardList";
 
 export default function Home({ searchParams }) {

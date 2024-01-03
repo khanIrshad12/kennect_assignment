@@ -6,7 +6,7 @@ import Card from "../card/Card";
 import SearchInput from "../SearchInput/SearchInput";
 
 const getData = async (page, searchQuery) => {
-  const url = new URL(`http://localhost:3000/api/posts`);
+  const url = new URL(`${process.env.APP_URL}/api/posts`);
   const params = { page };
 
   if (searchQuery) {

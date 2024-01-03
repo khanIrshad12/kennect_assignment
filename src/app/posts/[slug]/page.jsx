@@ -12,7 +12,7 @@ const SinglePage = ({ params }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/api/posts/${slug}`, {
+        const res = await fetch(`${process.env.App_URL}/api/posts/${slug}`, {
           cache: "no-store",
         });
 

@@ -1,10 +1,9 @@
 "use client";
-
 import styles from "./writePage.module.css";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useSession } from "next-auth/react";
-import dynamic from "next/dynamic";
+//import dynamic from "next/dynamic";
 import 'react-quill/dist/quill.bubble.css';
 import 'react-quill/dist/quill.snow.css';
 import ReactQuill from "react-quill";
